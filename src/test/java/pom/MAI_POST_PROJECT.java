@@ -36,6 +36,8 @@ public class MAI_POST_PROJECT extends Ulity {
 	@FindBy(xpath="//div[@class='css-19bb58m']")
 	private WebElement ProjectCounty;
 	
+	
+	@FindBy(xpath="//input[@name='start_date']")
 	private WebElement StartingDate;
 	
 	private WebElement ExpiryDate;

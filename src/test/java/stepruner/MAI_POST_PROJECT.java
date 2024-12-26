@@ -98,7 +98,11 @@ public class MAI_POST_PROJECT extends Ulity {
 	}
 	@When("I set the Starting Date to {string}")
 	public void iSetTheStartingDateTo(String string) {
+		   pom.MAI_POST_PROJECT p = new pom.MAI_POST_PROJECT();
+		   p.getStartingDate().sendKeys("27-12-2024");
 	    
+		
+		
 	   
 	}
 	@When("I set the Expiry Date to {string}")
